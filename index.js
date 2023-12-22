@@ -27,7 +27,6 @@ const resultado = calcularParcelas().toLocaleString("pt-BR", {
 alert(`Sua compra fica: ${resultado}`);
 
 function simularEmprestimo() {
-  // Obter informações do usuário usando o prompt
   let principal = parseFloat(prompt("Digite o valor do empréstimo:"));
   let taxaJuros = parseFloat(prompt("Digite a taxa de juros anual (%):"));
   let numeroParcelas = parseInt(prompt("Digite o número de parcelas:"));
